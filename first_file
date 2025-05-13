@@ -1,2 +1,20 @@
 Console.WriteLine("M.Abdul Monim");
 Console.WriteLine("24-ST-055");
+
+        List<string> semester2Subjects = new List<string>()
+        {
+            "Object-Oriented Programming (OOP)",
+            "Discrete Structures",
+            "Supply Chain Management (SCM)",
+            "Software Development Life Cycle (SDLC)",
+            "Translation of the Holy Quran (THQuran)",
+            "Probability and Statistics",
+            "Functional English"
+        };
+
+        Console.WriteLine("2nd Semester Subjects:");
+        foreach (string subject in semester2Subjects)
+        {
+            Console.WriteLine("- " + subject);
+        }
+    
