@@ -1,5 +1,24 @@
 Console.WriteLine("M.Abdul Monim");
 Console.WriteLine("24-ST-055");
+fsc_subjects
+List<string> fscSubjects = new List<string>()
+        {
+            "English",
+            "Urdu",
+            "Islamic Studies",
+            "Pakistan Studies",
+            "Mathematics",
+            "Physics",
+            "Chemistry"
+            
+        };
+
+        Console.WriteLine("FSC Subjects:");
+        foreach (string subject in fscSubjects)
+        {
+            Console.WriteLine(subject);
+        }
+
  2nd_semester
 
         List<string> semester2Subjects = new List<string>()
@@ -35,3 +54,4 @@ List<string> semester1Subjects = new List<string>()
             Console.WriteLine("- " + subject);
         }
 1st_semester
+main
