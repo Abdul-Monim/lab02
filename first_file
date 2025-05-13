@@ -1,5 +1,6 @@
 Console.WriteLine("M.Abdul Monim");
 Console.WriteLine("24-ST-055");
+ 2nd_semester
 
         List<string> semester2Subjects = new List<string>()
         {
@@ -18,3 +19,19 @@ Console.WriteLine("24-ST-055");
             Console.WriteLine("- " + subject);
         }
     
+List<string> semester1Subjects = new List<string>()
+        {
+            "Computer Programming",
+            "IT Skills",
+            "Applied Physics",
+            "Environment , Health & Safety (EHS)",
+            "Islamic Studies",
+            "Calculus and Analytical Geometry"
+        };
+
+        Console.WriteLine("1st Semester Subjects:");
+        foreach (string subject in semester1Subjects)
+        {
+            Console.WriteLine("- " + subject);
+        }
+1st_semester
